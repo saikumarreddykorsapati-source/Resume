@@ -379,9 +379,7 @@
 {Applications Involved : Fund Processing System (FPS), Excel and Outlook.}
 \hspace{17pt}{This bot automates return of wire process in FPS application for a given suspension account, bot will extract wires from FPS for respective business date and match with data in input recon file to identify eligible and non-eligible wires. List of eligible wires will be shared to operations team to fetch branch claim status and reason of return and all the wires which were not claimed by branch will be returned by bot in FPS.
 
-\begin{itemize}
 
-\end{itemize}
 }
 
 \cvevent{At Cognizant}{BSC Compliance Review Reports}{Project}{Technology : UI Path.}
