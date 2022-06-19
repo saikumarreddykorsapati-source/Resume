@@ -336,7 +336,7 @@
 		\end{center}
 	}
 }
-\vspace{50pt}
+\vspace{34pt}
 
 %============================================================================%
 %
@@ -349,10 +349,10 @@
 %----------------------------------------------------------------------------------------
 
 
-\cvsection{Professional and Technical Skills:}
+% \cvsection{Professional and Technical Skills:}
 
-TIBCO Spotfire 10.X and 11.X version (Tibco Certified Associate and Professional), Spotfire Admin, Python-3 - Data Exploration and Visualization Libraries, Iron Python, Oracle pl/sql.
-\vspace{12pt}
+% TIBCO Spotfire 10.X and 11.X version (Tibco Certified Associate and Professional), Spotfire Admin, Python-3 - Data Exploration and Visualization Libraries, Iron Python, Oracle pl/sql.
+% \vspace{12pt}
 
 %---------------------------------------------------------------------------------------
 %	EXPERIENCE
@@ -404,24 +404,18 @@ TIBCO Spotfire 10.X and 11.X version (Tibco Certified Associate and Professional
 \cvevent{2016 - 2020}{Graduated at PBR Vits}{Bachelor's Degree}{College : PBR Visvodaya Institute of Technology \& Science, Kavali}
 {Degree : B.Tech,}{\ Stream : Computer Science \& Engineering,}{  Gpa (or) \% : 76.4\%}
 
-%\textcolor{softcol}{\hrule}
-
-
+% \textcolor{softcol}{\hrule}
 
 
 %
+\vspace{5pt}
+
+\cvevent{2014 - 2016}{Class 11 \& 12th - Intermediate}{Higher Secondary}{College : Sri Chaitanya junior college (Raman bhavan3), Vijayawada}
+{\  Stream : MPC (Maths, Physics, Chemistry), Gpa (or) \% : 91\%}
+% \textcolor{softcol}{\hrule}
 
 
-
-
-%\cvevent{2014 - 2016}{Completed Intermediate at Sri Chaitanya}{Higher Secondary}{College : Sri Chaitanya junior college (Raman bhavan3), Vijayawada}{Degree : Intermediate}
-%{\  Stream : MPC (Maths, Physics, Chemistry),}
-%{  Gpa (or) \% : 91\%}
-%\textcolor{softcol}{\hrule}
-
-
-%\cvevent{2014}{SSC}{High School}{School : Minerva English Medium High School, Kavali}{Degree : State Board (SSC)}
-%{\  Gpa (or) \% : 93\%}
+\cvevent{2014}{Secondary School Certificate (SSC) }{High School}{School : Minerva English Medium High School, Kavali }{Gpa (or) \% : 93\%}
 
 \end{minipage}}%
 \fcolorbox{white}{sectcol}{\begin{minipage}[c][0.95\textheight][t]{0.33\linewidth}
