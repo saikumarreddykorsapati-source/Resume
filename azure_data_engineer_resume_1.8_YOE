@@ -384,19 +384,19 @@
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{At Cognizant}{IOT Telemetry Sensor Data ETL Pipeline }{Project}
-{Implemented end to end third party IOT device sensor data ETL pipeline. I designed it to extract IOT sensor telemetry data (in JSON format) from source AWS cloud, performing validations on extracted data and to load the validated data to the destination Azure cloud in relational format. }
-{I used Azure Data Factory for extraction of data and scheduling pipeline, Azure Functions to perform validation, Azure Data Lake for storage and staging, Azure Synapse dedicated SQL Pool (data warehouse) for storing the validated data. I'm also responsible for monitoring, modifications and handling errors in pipeline.}
+\cvevent{At Cognizant}{Oracle Data Migration and Archival Pipeline }{Project}
+{Implemented end to end ETL pipeline to archive nearly 193 tables of  millions of records using various activities from 1. On-premise oracle to Azure Dedicated Sql pool (Synapse) and 2. Archive the tables as csv files in Blob Storage.}
+{Created self hosted integration runtime in adf and installed in client's on-premise virtual machine where the source database orcale is installed then extracted, copied data using azure data factory and scheduled pipelines using triggers to load the data in batches during non-business hours.}
 
 \cvevent{At Cognizant}{Smart Trails Data Platform ETL Pipeline}{Project}
-{Multiple Internal applications in client end sends the data(huge size) in csv format on daily basis in to the cloud storage location and it is required for data analyst team to have it in relational format to create dashboards.}
+{Multiple Internal applications in client end sends the data (huge size) in csv format on daily basis in to the cloud storage location and it is required for data analyst team to have it in relational format to create dashboards.}
 {for this I implemented end to end ETL pipeline to extract data using azure data factory, to perform data validations using Azure Data bricks(PySpark), used Azure Data Lake for storage and staging, Azure Sql Database for storing the validated data. I'm also responsible for monitoring, modifications and handling errors in pipeline.
 }
-\cvevent{At Cognizant}{US-Client - HealthCare Industry}{Project}
-{Dashboards: Gathering the requirements from end users to create reports and dashboards,Creating complex Information Links using multiple joins, prompts, parameters to load data
+\cvevent{At Cognizant}{Smart Trails Dashboard}{Project}
+{Dashboards: Gathering the requirements from end users to create reports and dashboards, Creating complex Information Links using multiple joins, prompts, parameters to load data
 from different data sources.
 }
-{Creating different kinds of reports and dashboards using scatter plot, time series charts,bar charts, combination charts, map charts using shape files, WMS/TMS layers, property controls and created many more POCs for various requirements etc.
+{Creating different kinds of reports and dashboards using scatter plot, time series charts, bar charts, combination charts, text area, property controls and created many more POCs for various requirements etc.
 
 
 \begin{itemize}
@@ -470,10 +470,13 @@ from different data sources.
 \vspace{5pt}
 
 \textcolor{white}{
-\icontext{Code}{12}{TCA | TCP - SPOTFIRE Certification}{white} \\[6pt]
-\icontext{Cloud}{12}{AWS CCP - CLF-C01 Certification}{white} \\[6pt]
-\icontext{Cloud}{12}{Azure AI-900, AZ-900, AZ-104, AZ-204}{white} \\[6pt]
-\icontext{Cloud}{12}{Azure DP-900, DP-203 Certification}{white} \\[6pt]
+\href{https://www.credly.com/users/korsapati-sai-kumar-reddy}{
+\icontext{Code}{12}{TCA | TCP - SPOTFIRE Certification}{white}} \\[6pt]
+\href{https://www.credly.com/users/korsapati-sai-kumar-reddy}{\icontext{Cloud}{12}{AWS CCP - CLF-C01 Certification}{white}} \\[6pt]
+\href{https://www.credly.com/users/korsapati-sai-kumar-reddy}{
+\icontext{Cloud}{12}{Azure AI-900, AZ-900, AZ-104, AZ-204}{white}} \\[6pt]
+\vspace{-10pt}
+\href{https://www.credly.com/users/korsapati-sai-kumar-reddy}{\icontext{Cloud}{12}{Azure DP-900, DP-203 Certification}{white}} \\[6pt]
 }
 \end{metasection}
 
@@ -497,7 +500,7 @@ from different data sources.
 \begin{metasection}{Contact}
 \vspace{5pt}
 
-	\icontext{}{12}{Name: K. Sai Kumar Reddy}{white}\\[6pt]
+	\icontext{}{-20}{Name: K. Sai Kumar Reddy}{white}\\[6pt]
 	\icontext{MapMarker}{12}{Kavali, Andhra Pradesh}{white}\\[6pt]
 	\icontext{MobilePhone}{12}{+91 6300541746}{white}\\[6pt]
 	\href{https://mail.google.com/mail/u/0/?fs=1&to=mailtosai2k19@gmail.com&su=CAREER&tf=cm}{\icon{Envelope}{8}{white} mailtosai2k19@gmail.com}\\[6pt]
